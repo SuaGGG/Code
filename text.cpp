@@ -2,10 +2,10 @@
 
 #define int long long
 #define endl '\n'
-#define all(x) x.begin(),x.end()
-#define rall(x) x.rbegin(),x.rend()
-#define debug(x) cout<<#x<<" "<<x<<endl
-#define coutf(x) cout<<setiosflags(ios::fixed)<< setprecision ( x )
+#define all(x) x.begin(), x.end()
+#define rall(x) x.rbegin(), x.rend()
+#define debug(x) cout << #x << " " << x << "\n"
+#define coutf(x) cout << setiosflags(ios::fixed) << setprecision ( x )
 
 using namespace std;
 
@@ -14,19 +14,19 @@ const int mod = 1e9 + 7;
 const int inf = 0x3f3f3f3f;
 const int INF = 0x3f3f3f3f3f3f3f3f;
 
-void solve(){
+void solve() {
 
 }
 
-signed main(){
+signed main() {
 
-    /*freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);*/
+  /*freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);*/
 
-    ios::sync_with_stdio(0), cin.tie(nullptr);
-    int t = 1;
-    cin >> t;
-    while (t--) solve();
-    return 0;
-    
+  ios::sync_with_stdio(0), cin.tie(nullptr);
+  int t = 1;
+  cin >> t;
+  while (t--) solve();
+  return 0;
+  
 }
