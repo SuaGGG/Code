@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 
 #define int long long
 #define all(x) x.begin(), x.end()
@@ -15,15 +15,16 @@ void solve() {
   
 }
 
+
 signed main() {
 
-  /*freopen("input.txt", "r", stdin);
-  freopen("output.txt", "w", stdout);*/
-
   std::ios::sync_with_stdio(0), std::cin.tie(nullptr);
+#ifdef LOCAL
+  freopen("input.txt", "r", stdin);
+  freopen("output.txt", "w", stdout);
+#endif
   int t = 1;
   std::cin >> t;
   while (t--) solve();
   return 0;
-  
 }
